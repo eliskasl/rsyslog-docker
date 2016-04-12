@@ -1,5 +1,5 @@
 FROM fedora
-MAINTAINER http://fedoraproject.org/wiki/Cloud
+MAINTAINER Eliska Slobodova
 ENV container docker
 RUN dnf -y update && dnf -y install rsyslog && dnf clean all
 
